@@ -92,7 +92,7 @@ font-family: 'Roboto', sans-serif; */
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
-  text-align: center;
+ // text-align: center;
 }
 
 /* ------------- Our team H3-p - text --------------------*/
@@ -102,7 +102,7 @@ font-family: 'Roboto', sans-serif; */
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
-  text-align: center;
+ // text-align: center;
 }
 
 .our-team p {
@@ -110,7 +110,7 @@ font-family: 'Roboto', sans-serif; */
   font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
-  text-align: center;
+ // text-align: center;
 }
 /* -----------------footer-------------- */
 
@@ -162,7 +162,7 @@ footer{
 
 
 
-.portfolio-work-examples h3 {
+                              .portfolio-work-examples h3 {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 18px;
@@ -173,3 +173,4 @@ footer{
   font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
+}
