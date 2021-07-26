@@ -3,6 +3,9 @@
   --title-text-color: #212121;
   --accent-text-color: #2196f3;
   --wite-color: #ffffff;
+  --bgr-footer-color:#2F303A;
+
+
 }
 
 body {
@@ -110,8 +113,15 @@ font-family: 'Roboto', sans-serif; */
 }
 /* -----------------footer-------------- */
 
+
+footer{
+  background-color: var(--bgr-footer-color);
+
+}
+
+
 .footer-logo {
-  color: var(--main-text-color); /*WARNING!!!! */
+  color: var(--wite-color);
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
@@ -123,6 +133,11 @@ font-family: 'Roboto', sans-serif; */
   color: var(--accent-text-color);
 }
 
-.footer-contacts .a .p {
+.footer-contacts a {
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.footer-contacts p{
+  color: var(--wite-color);
 }
