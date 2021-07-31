@@ -40,6 +40,15 @@ font-family: 'Roboto', sans-serif; */
     text-decoration: none;
     color: var(--title-text-color);
 }
+
+.text-menu:hover,
+.text-menu:focus {
+    color: var(--accent-text-color);
+}
+.active .text-menu {
+    color: var(--accent-text-color);
+}
+
 .menu,
 .menu-contacts a {
     color: var(--main-text-color);
@@ -47,10 +56,6 @@ font-family: 'Roboto', sans-serif; */
     line-height: 1.5;
 
     letter-spacing: 0.02em;
-}
-.text-menu:hover,
-.text-menu:focus {
-    color: var(--accent-text-color);
 }
 
 /* _____________________main text title_______________ */
@@ -82,6 +87,7 @@ font-family: 'Roboto', sans-serif; */
     font-weight: 700;
     line-height: 1.1;
     text-transform: uppercase;
+    font-size: 14px;
 }
 
 /*---------------------- Our services - Our team H2 - text ------------------ */
